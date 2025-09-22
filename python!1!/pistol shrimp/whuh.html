@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <p>
+                <sup>pistol</sup>shrimp</p>
+        
+        <h1>whuh</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="our-songs.html">Our Setlist</a></li>
+                <li><a href="see-us-play.html">See Us Play</a></li>
+                <li><a href="markup.html">Ignore this LMAOO</a></li>
+                <li class="selected">whuh</li>
+                </ul>
+            </nav>
+            </header>
+            <p class="shrimp-tip">Never let me near any sort of creative space. This is what happens.</p>
+        <p>
+            <img id="display-image" onclick="swapImage()" src="images/videoframe_0.png" width="180" height="180"/>
+        </p>
+        <p>Click on the image to change it!</p>
+        <script>
+            function swapImage()    {
+                var imageDisplayed = document.getElementById('display-image');
+                if (imageDisplayed.src.match("images/videoframe_0.png"))  {
+                    imageDisplayed.src = "images/spam.png";
+                }
+                else    {
+                    imageDisplayed.src = "images/videoframe_0.png"
+                }
+            }
+        </script>
+    </body>
+</html>
